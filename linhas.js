@@ -15,7 +15,7 @@ function preencherCartelaNumeros(cartela, numeros) {
             if (i === 2 && j === 2) {
                 cell.classList.add('central-icon');
                 const icon = document.createElement('img');
-                icon.src = '/image.png'; 
+                icon.src = 'image.png'; 
                 icon.alt = 'Ícone Central';
                 icon.className = 'central-icon-img';
                 cell.appendChild(icon);
