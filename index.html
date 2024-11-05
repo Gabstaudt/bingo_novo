@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bingo</title>
+        <link rel="stylesheet" href="bingo.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <img src="/image.png" alt="Ícone de Bingo" class="navbar-icon">
+
+            Jogo do Bingo</div>
+        <div class="navbar-buttons">
+            <button id="btnSortearNumero">Sortear Número</button>
+            <button id="btnAddCartela">Cadastrar Nova Cartela</button>
+            <button id="btnSortearNumeroAleatorio">Sortear Número Aleatório</button>
+        </div>
+    </nav>
+
+    <div id="numeroSorteado"></div>
+    
+    <div id="numerosSorteados"></div>
+    <div id="cartelasContainer"></div>
+
+    <script src="linhas.js"></script>
+     <script src="cheia.js"></script>
+     <script src="sorteador.js"></script>
+
+</body>
+</html>
